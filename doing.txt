@@ -1,0 +1,20 @@
+sorting complexities
+
+naive n^2 
+suppose india has 1 bil phones 10^9 
+speed in seconds = 10^9x2/ 10^8 (comp speed) 
+smart nlogn
+3x10^10/10^8 = 300s
+
+videogame monitor  has 3.75 millions points 
+suppose we've 500000 objs 5x10^5
+then naive 25x10^10 taking upto 42 mins response time 
+smart nlogn takes secs
+
+order of mag & constants ( visit limits, asymptotic complextiy)
+
+logn n nlogn n^2 n^3  2^n n!
+
+O(n2 log n) is an upper bound on worst-case complexity.
+ It does not force any input to actually take that much time to solve. 
+So the only contradiction is the statement that there are infinitely many n for which there are inputs of size n that take time O(n3).
