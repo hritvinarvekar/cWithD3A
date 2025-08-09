@@ -1,0 +1,18 @@
+ 1) Compute pairs of A & B such that they're connected by sequence of flights 
+N cities F direct flights how much large value can we handle of both?? (response in seconds) 
+Constraints : waiting time, aircraft maintence, cheapest routee
+
+2) Xerox Shop: allocate jobs such that revenue is maximized: No. of pages for each job is known, but if deadline is not met, discount is offered.
+brute force: try all possible locations, choose the optimal one
+decomposition: fix one job to run first, remaining jobs smaller in no. recursion
+greedy: some strategy for the jobs
+variations: old machine, price varies w machine & machine cannot run indef.
+
+3)Document check: web search queries
+distance, types of changes allowed?
+brute: delete & insert
+decomposition: first change, then recursively do it
+eg naive recursion sum of fibonacci nos
+dynamic programming: do not compute same sub problem
+save it & look it up
+variations: focused on "meanings" 
